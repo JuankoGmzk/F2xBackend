@@ -15,6 +15,12 @@ namespace BackendRestF2x.Controllers
     {
 
         #region Conteo
+
+
+        //Juan Pablo Bernal
+        //Prueba técnica f2x
+        //juanpis0304@hotmail.com
+
         [HttpGet("LlenadoConteo")]
         [AllowAnonymous]
         public Response GetLlenadoVehiculosConteo()
@@ -661,12 +667,14 @@ namespace BackendRestF2x.Controllers
             return objResponse;
         }
 
+        public class Reporte
+        {
+            public string? TotalCantidad { get; set; }
+            public string? TotalValor { get; set; }
+        }
+
         #endregion
     }
 
-    public class Reporte
-    {
-        public string? TotalCantidad { get; set; }
-        public string? TotalValor { get; set; }
-    }
+   
 }
