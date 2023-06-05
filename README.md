@@ -13,7 +13,7 @@ Nuggets a instalar o tener en cuenta:
 5. swashbuckle.aspnetcore.swagger\6.5.0
 6. system.data.sqlclient\4.8.5
 
-# Para iniciar el swagger debe descomentar las lineas comentadas en el Program.cs (esto debido a que se debió hacer una configuración adicional para poder resolver el inconveniente común del CORS).
+**Para iniciar el swagger debe descomentar las lineas comentadas en el Program.cs (esto debido a que se debió hacer una configuración adicional para poder resolver el inconveniente común del CORS).
 
 Url's para acceder a la api de conteo con sus explicaciones:
 
