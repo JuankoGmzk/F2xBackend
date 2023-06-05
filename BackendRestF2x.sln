@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendRestF2x", "BackendRestF2x\BackendRestF2x.csproj", "{6432E1EF-2E9A-4C76-A5E8-035DCA6C97F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6432E1EF-2E9A-4C76-A5E8-035DCA6C97F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6432E1EF-2E9A-4C76-A5E8-035DCA6C97F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6432E1EF-2E9A-4C76-A5E8-035DCA6C97F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6432E1EF-2E9A-4C76-A5E8-035DCA6C97F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4024A91-9ACB-4494-9954-C954ECC8F2EB}
+	EndGlobalSection
+EndGlobal
