@@ -18,19 +18,30 @@ Nuggets a instalar o tener en cuenta:
 Url's para acceder a la api de conteo con sus explicaciones:
 
 Conteo {
+
 [HttpGet("LlenadoConteo")] -- Esté se encarga de poblar la base de datos con los datos encontrados día a día. (está desde 0, tarda aprox 8-10 min en llenarse por completo)
+
 [HttpGet("VehiculosConteoPorFecha")] -- Esté se encarga de realizar una única petición GET con su parametro de fecha.
+
 [HttpGet("AllVehiculosConteoDB")] -- Esté se encarga de devolver toda la información de la base de datos respecto a la tabla de conteo. (se recomienda primero ejecutar "Llenado de conteo").
+
 }
 Recaudo{
+
 [HttpGet("LlenadoRecaudo")] -- Esté se encarga de poblar la base de datos con los datos encontrados día a día. (está desde 0, tarda aprox 8-10 min en llenarse por completo)
+
 [HttpGet("VehiculosRecaudoPorFecha")] -- Esté se encarga de realizar una única petición GET con su parametro de fecha en la entidad de recaudo.
+
 [HttpGet("AllVehiculosRecaudoDB")]  -- Esté se encarga de devolver toda la información de la base de datos respecto a la tabla de conteo. (se recomienda primero ejecutar "Llenado de recaudo").
+
 }
 
 Reporte{
+
 [HttpGet("ReporteDB")] -- Está se encarga de la lógica para entregar el reporte al front. 
+
 }
+
 
 
 --------------------------------
